@@ -1,7 +1,7 @@
 {
-  "name": "hax-body",
-  "description": "A LRN element",
-  "main": "hax-body.html",
+  "name": "hax-builds",
+  "description": "A built and processed / optimized version of HAX for simple integrations via CDN.",
+  "main": "build/hax.html",
   "dependencies": {
     "polymer": "Polymer/polymer#^1.11.1",
     "vaadin-upload": "vaadin/vaadin-upload#^2.1.3",
