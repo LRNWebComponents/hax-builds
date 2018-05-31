@@ -11,6 +11,14 @@ HAX + Polymer to build what's found in the haxtheweb.org demo. The [index file](
 `<script src="https://cdn.rawgit.com/LRNWebComponents/hax-builds/0.16.5/build/elements.html"></script>`
 Polymer + Common element set found in the haxtheweb.org. Use this after saving the content to ensure that it renders correctly because you'll have all the elements.
 
+[build/cms-hax.html](build/cms-hax.html)
+`<script src="https://cdn.rawgit.com/LRNWebComponents/hax-builds/0.16.5/build/cms-hax.html"></script>`
+cms-hax + kitchen-sink - CMS based implementation which ensures all dependencies are in place for rendering. This is for drop in CMS style integrations.
+
+[build/wysiwyg-hax.html](build/wysiwyg-hax.html)
+`<script src="https://cdn.rawgit.com/LRNWebComponents/hax-builds/0.16.5/build/wysiwyg-hax.html"></script>`
+wysiwyg-hax + kitchen-sink - WYSIWYG based implementation which ensures all dependencies are in place for rendering. This is for drop in WYSIWYG style integrations.
+
 [build/kitchen-sink.html](build/kitchen-sink.html)
 `<script src="https://cdn.rawgit.com/LRNWebComponents/hax-builds/0.16.5/build/kitchen-sink.html"></script>`
 HAX + Polymer + Common element set found in the haxtheweb.org demo. The index file located in this same directory will provide a simple "app" integration.

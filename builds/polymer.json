@@ -1,0 +1,34 @@
+{
+  "entrypoint": "index.html",
+  "fragments": [],
+  "sources": [
+    "src/**/*",
+    "index.html"
+  ],
+  "extraDependencies": [
+    "bower_components/webcomponentsjs/*.js"
+  ],
+  "builds": [
+    {
+      "js": {
+        "minify": true,
+        "compile": true
+      },
+      "bundle": false,
+      "css": {
+        "minify": true
+      },
+      "html": {
+        "minify": true
+      },
+      "insertPrefetchLinks": true,
+      "addPushManifest": true,
+      "addServiceWorker": true
+    }
+  ],
+  "lint": {
+    "rules": [
+      "polymer-2-hybrid"
+    ]
+  }
+}
