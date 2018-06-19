@@ -1,6 +1,9 @@
 # HAX for builds
 This repo contains prebuilt versions of HAX based on running build routines against source. This can make it easier to integrate HAX into platforms by referencing a build (either CDN or adding this version to your platform) and not need to build HAX from source (via bower / npm) in order to utilize it.
 
+## Demo
+[builds/index.html](https://rawgit.com/LRNWebComponents/hax-builds/master/builds/index.html)
+
 This is most useful when your just trying out HAX or you don't have Polymer based build routines yet want to leverage the capabilities we've built into HAX. You'll be forced to peg to a specific point release but this will get you much of the advanced elements found in hax demos without needing to understand anything about integration.
 
 [builds/hax.html](builds/hax.html)
